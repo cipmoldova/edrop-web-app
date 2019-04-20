@@ -31,10 +31,8 @@ return [
             ],
         ],
         'mobile' => [
-            'admin' => [
-                'id' => env('CLIENT_MOBILE_ADMIN_ID'),
-                'secret' => env('CLIENT_MOBILE_ADMIN_SECRET'),
-            ],
+          'id' => env('CLIENT_MOBILE_ID'),
+          'secret' => env('CLIENT_MOBILE_SECRET'),
         ],
 
         // add your other clients here
